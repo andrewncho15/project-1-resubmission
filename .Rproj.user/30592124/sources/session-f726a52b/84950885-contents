@@ -348,3 +348,41 @@ table {
     grid-template-columns: 1fr;
   }
 }
+
+.table-grid {
+  column-gap: 3rem;
+  row-gap: 5rem;
+  margin: 4rem auto;
+}
+
+.text-card {
+  max-width: 1180px;
+  margin: 3rem auto;
+  background: white;
+  border-radius: 22px;
+  padding: 2rem 2.25rem;
+  box-shadow: 0 18px 42px rgba(23, 50, 54, 0.10);
+  border: 1px solid rgba(13, 139, 145, 0.08);
+}
+
+.text-card p,
+.text-card h1,
+.text-card h2,
+.analysis-card p,
+.wide-card p,
+.country-table-card p {
+  max-width: none !important;
+}
+
+.text-card h1 {
+  margin-top: 0;
+}
+
+main p {
+  max-width: none !important;
+}
+
+main > section,
+main > div:not(.hero-card):not(.image-card):not(.cell):not(.sourceCode) {
+  max-width: 1180px;
+}

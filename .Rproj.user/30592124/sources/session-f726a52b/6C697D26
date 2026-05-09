@@ -3,7 +3,7 @@
     "path": "~/Documents/STAT431/PROJECT1 FINAL DELIVERABLE/Final_QMD.qmd",
     "project_path": "Final_QMD.qmd",
     "type": "quarto_markdown",
-    "hash": "0",
+    "hash": "4251588038",
     "contents": "",
     "dirty": false,
     "created": 1778276510084.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "14,16",
-        "scrollLine": "0"
+        "cursorPosition": "387,0",
+        "scrollLine": "376"
     },
     "folds": "",
-    "lastKnownWriteTime": 1778280028,
+    "lastKnownWriteTime": 1778305596,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1778280028188,
+    "last_content_update": 1778305596844,
     "read_only": false,
     "read_only_alternatives": []
 }

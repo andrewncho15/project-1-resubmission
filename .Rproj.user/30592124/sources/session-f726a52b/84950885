@@ -3,7 +3,7 @@
     "path": "~/Documents/STAT431/PROJECT1 FINAL DELIVERABLE/styles.css",
     "project_path": "styles.css",
     "type": "css",
-    "hash": "2806856327",
+    "hash": "0",
     "contents": "",
     "dirty": false,
     "created": 1778276520947.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "349,1",
-        "scrollLine": "326"
+        "cursorPosition": "387,1",
+        "scrollLine": "364"
     },
     "folds": "",
-    "lastKnownWriteTime": 1778278548,
+    "lastKnownWriteTime": 1778304724,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1778278548238,
+    "last_content_update": 1778304724125,
     "read_only": false,
     "read_only_alternatives": []
 }
