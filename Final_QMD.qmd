@@ -383,7 +383,7 @@ This table compares total plastic waste by region and includes a per-capita meas
 </p>
 :::
 
-::: {.analysis-card}
+::: {.analysis-card .plot-card}
 
 ```{r}
 table_data <- table(dominant_gdp$gdp_group, dominant_gdp$dominant_type)
@@ -424,7 +424,7 @@ Now onto our second question of interest, similar to the limitations in question
 
 :::
 
-::: {.analysis-card}
+::: {.analysis-card .plot-card}
 
 ```{r}
 tuesdata <- tidytuesdayR::tt_load(2021, week = 5)
@@ -885,6 +885,35 @@ cleanup_country_year_gt <- cleanup_country_year |>
     source_note = gt::md("Alt text: Table of cleanup efficiency by country and year.")
   )
 ```
+
+::: {.analysis-card}
+
+```{r}
+ggplot(cleanup_country_year, aes(x = total_volunteers, y = avg_efficiency)) +
+  geom_bin2d() +
+  geom_smooth(
+    method = "lm",
+    se = TRUE,
+    color = "red",
+    linewidth = 1
+  ) +
+  scale_x_log10() +
+  scale_y_log10() +
+  labs(
+    title = "Cleanup Efficiency vs Volunteers",
+    x = "Total volunteers (log scale)",
+    y = "Cleanup efficiency (log scale)",
+    fill = "Count"
+  ) +
+  theme_minimal()
+```
+
+<p class="card-text">
+This plot suggests that cleanup efficiency does not increase consistently with volunteer count, meaning more volunteers do not automatically lead to greater cleanup efficiency in this dataset.
+</p>
+
+:::
+
 ::: {.country-table-card}
 
 <details>
