@@ -386,7 +386,8 @@ This table compares total plastic waste by region and includes a per-capita meas
 ::: {.text-card}
 # What does this all mean?
 
-Together, these visuals suggest that GDP status may be related to dominant plastic waste type, but the relationship is not perfectly clear or consistent. “Other” plastic and PET appear most often as dominant categories, while the GDP-group and flow charts show that countries from different economic groups still overlap across several plastic types. Regionally, Asia has the highest total plastic waste, but the per-capita comparison shows that total waste counts are strongly influenced by population size and regional representation, so GDP alone cannot fully explain plastic waste patterns.
+All in all, these visuals show that GDP status is potentially related to the dominant plastic waste type, but the relationship is not perfectly consistent. The "other" and PET groups appear as the dominant category the most often, while the GDP group and flow charts show that countries from different economic groups overlap across several plastic types. When considering region, Asia has the highest total plastic waste, but the per-capita comparison shows that total counts are influenced heavily by population size, so GDP cannot fully explain this pattern.
+
 :::
 
 ```{r}
@@ -905,6 +906,6 @@ Overall, the visual evidence suggests that cleanup efficiency varies strongly by
 
 # So, what does this all mean?
 
-This analysis shows that GDP status may relate to the dominant types of plastic waste found across countries, but the relationship is not simple or fully consistent. The regional cleanup results suggest that higher GDP and higher volunteer counts do not automatically lead to better cleanup efficiency, since some lower-GDP regions show stronger efficiency than higher-GDP regions. Overall, the findings point to cleanup outcomes being shaped by multiple factors beyond economic resources alone, including regional participation, organization, reporting, and local cleanup conditions.
+GDP status may relate to the dominant types of plastic waste found across countries in a very nuanced, complex way that is not totally consistent.  The regional cleanup results show that higher GDP and higher volunteer counts do not automatically lead to better cleanup efficiency since some lower-GDP regions show stronger efficiency than higher-GDP regions. Overall, our key findings point to cleanup outcomes being shaped by multiple factors, one of which is economic resources, but other factors like organization, reporting, and local cleanup conditions are likely unaccounted for variables that have a large effect.
 
 :::
