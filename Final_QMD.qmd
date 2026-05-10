@@ -383,12 +383,7 @@ This table compares total plastic waste by region and includes a per-capita meas
 </p>
 :::
 
-::: {.text-card}
-# What does this all mean?
-
-All in all, these visuals show that GDP status is potentially related to the dominant plastic waste type, but the relationship is not perfectly consistent. The "other" and PET groups appear as the dominant category the most often, while the GDP group and flow charts show that countries from different economic groups overlap across several plastic types. When considering region, Asia has the highest total plastic waste, but the per-capita comparison shows that total counts are influenced heavily by population size, so GDP cannot fully explain this pattern.
-
-:::
+::: {.analysis-card}
 
 ```{r}
 table_data <- table(dominant_gdp$gdp_group, dominant_gdp$dominant_type)
@@ -407,6 +402,19 @@ kable(
 ) |>
   kable_styling(full_width = FALSE)
 ```
+
+<p class="card-text">
+With a p-value of 0.2128, the chi-square test does not show strong evidence of an association between GDP group and dominant plastic type in 2019. This supports the visuals: GDP group may show some pattern differences, but the relationship is not statistically clear in this sample.
+</p>
+
+:::
+
+::: {.text-card}
+# What does this all mean?
+
+All in all, these visuals show that GDP status is potentially related to the dominant plastic waste type, but the relationship is not perfectly consistent. The "other" and PET groups appear as the dominant category the most often, while the GDP group and flow charts show that countries from different economic groups overlap across several plastic types. When considering region, Asia has the highest total plastic waste, but the per-capita comparison shows that total counts are influenced heavily by population size, so GDP cannot fully explain this pattern.
+
+:::
 
 ::: {.text-card}
 
