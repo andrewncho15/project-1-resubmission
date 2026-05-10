@@ -55,9 +55,9 @@ The waste cleanup industry is valued at up to \$140 billion in 2026, much of whi
   <strong>So...</strong>
 </div>
 ::: {.text-card}
-# Thus, how does a country's GDP status relate to its dominant plastic type?
+# How does a country's GDP status relate to its dominant plastic type?
 
-How does a country's GDP status relate to its dominant plastic type? Now for the first question of interest, our analysis is limited to those countries included in the TidyTuesday plastic data set with data from 2019, unfortunately this means that not all counties are represented, meaning that our findings are not globally applicable. This question brings us insight to see the trends  amongst higher and lower income countries and their plastic usage. Prior to our findings, we came to the initial theory that we would expect to see a strong relationship between GDP and plastic types, as we would expect a lot more PET, PP, and HDPE types of plastic in higher GDP countries.This is because there is a high consumption of packaged goods and well-oriented logistics systems that focus on consumer-based plastics and items. For lower GDP countries, we would expect to see more PVC and LDPE types of plastic, because there would reasonably be more infrastructure development and lower focus on frequent packaged goods and deliveries, and more on utility based plastics (like PVC and LDPE). We would expect a solid mix of both of these plastic types for the middle GDP countries.
+Now for the first question of interest, our analysis is limited to those countries included in the TidyTuesday plastic data set with data from 2019, unfortunately this means that not all counties are represented, meaning that our findings are not globally applicable. This question brings us insight to see the trends  amongst higher and lower income countries and their plastic usage. Prior to our findings, we came to the initial theory that we would expect to see a strong relationship between GDP and plastic types, as we would expect a lot more PET, PP, and HDPE types of plastic in higher GDP countries.This is because there is a high consumption of packaged goods and well-oriented logistics systems that focus on consumer-based plastics and items. For lower GDP countries, we would expect to see more PVC and LDPE types of plastic, because there would reasonably be more infrastructure development and lower focus on frequent packaged goods and deliveries, and more on utility based plastics (like PVC and LDPE). We would expect a solid mix of both of these plastic types for the middle GDP countries.
 :::
 
 ::: {.text-card}
@@ -391,7 +391,6 @@ All in all, these visuals show that GDP status is potentially related to the dom
 :::
 
 ```{r}
-#| output: FALSE
 table_data <- table(dominant_gdp$gdp_group, dominant_gdp$dominant_type)
 
 test <- chisq.test(table_data)
